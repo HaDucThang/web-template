@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Checkout</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Wish shop project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/checkout.css">
+<link rel="stylesheet" type="text/css" href="css/checkout_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"><a href="#">Team 2</a></div>
+			<nav class="main_nav">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="categories.html">samsung</a></li>
+					<li><a href="categories.html">apple</a></li>
+					<li><a href="categories.html">sony</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</nav>
+			<div class="header_content ml-auto">
+				<div class="search header_search">
+					<form action="#">
+						<input type="search" class="search_input" required="required">
+						<button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
+					</form>
+				</div>
+				<div class="shopping">
+					<!-- Cart -->
+					<a href="#">
+						<div class="cart">
+							<img src="images/shopping-bag.svg" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Checkout -->
+
+	<div class="checkout">
+		<div class="container">
+			<div class="row">
+
+				<!-- Billing Details -->
+				<div class="col-lg-6">
+					<div class="billing">
+						<div class="checkout_title">billing details</div>
+						<div class="checkout_form_container">
+							<form action="#" id="checkout_form">
+								<input type="text" class="checkout_input" placeholder="Full Name">
+								<input type="text" class="checkout_input" placeholder="Address" required="required">
+								<input type="text" class="checkout_input" placeholder="Phone" required="required">
+
+						<div class="payment_options">
+							<button class="cart_total_button">place order</button>
+						</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!-- Cart Details -->
+				<div class="col-lg-6">
+					<div class="cart_details">
+						<div class="checkout_title">cart total</div>
+						<div class="cart_total">
+							<ul>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="cart_total_title">Product</div>
+									<div class="cart_total_price ml-auto">Total</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="cart_total_title">2 Piece Swimsuit x1</div>
+									<div class="cart_total_price ml-auto">$35.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="cart_total_title">Subtotal</div>
+									<div class="cart_total_price ml-auto">$35.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="cart_total_title">Shipping</div>
+									<div class="cart_total_price ml-auto">$5.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start total_row">
+									<div class="cart_total_title">Total</div>
+									<div class="cart_total_price ml-auto">$40.00</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="footer_logo"><a href="#">Team 2</a></div>
+					<nav class="footer_nav">
+						<ul>
+							<li><a href="index.html">home</a></li>
+							<li><a href="categories.html">samsung</a></li>
+							<li><a href="categories.html">apple</a></li>
+							<li><a href="categories.html">sony</a></li>
+							<li><a href="contact.html">contact</a></li>
+						</ul>
+					</nav>
+					<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Team 2</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="js/checkout_custom.js"></script>
+</body>
+</html>
